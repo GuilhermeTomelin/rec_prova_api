@@ -1,14 +1,15 @@
-Monitoramento Meteorológico
+## Monitoramento Meteorológico
+
 Aplicação Python que consulta dados meteorológicos simulados
 de Jaraguá do Sul - SC e apresenta os resultados no Streamlit.
 
-Arquivos
+# Arquivos
 - consumidor_api.py: consulta a API.
 - frontend.py: apresenta as informações.
 - requirements.txt: dependências.
 - .gitignore: arquivos ignorados pelo Git.
 
-Instalação:
+# Instalação:
 
 - Ambiente virtual;
     python -m venv .venv
@@ -16,7 +17,7 @@ Instalação:
 - Ativar no powershell:
     .\.venv\Script\Activate.ps1
 
-Preparação
+# Preparação
 
 A API utilizada está disponível em:
 https://github.com/jpsvalentim/api-meteorologica-offline
@@ -30,6 +31,6 @@ http://127.0.0.1:8000/health
 Testar pelo Postman:
 GET http://127.0.0.1:8000/v1/forecast
 
-Parâmetros:
+# Parâmetros:
 latitude = -26.4851
 longitude = -49.0713

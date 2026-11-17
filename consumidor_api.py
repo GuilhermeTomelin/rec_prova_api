@@ -8,7 +8,6 @@ def obter_dados_meteorologicos():
         "latitude": -26.4851,
         "longitude": -49.0713
     }
-
     try:
         resposta = requests.get(url, params=parametros, timeout=10) # A resposta vai receber o parâmentro definido e a url para a consulta.
         resposta.raise_for_status()
