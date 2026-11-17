@@ -8,6 +8,14 @@ Arquivos
 - requirements.txt: dependências.
 - .gitignore: arquivos ignorados pelo Git.
 
+Instalação:
+
+- Ambiente virtual;
+    python -m venv .venv
+
+- Ativar no powershell:
+    .\.venv\Script\Activate.ps1
+
 Preparação
 
 A API utilizada está disponível em:
