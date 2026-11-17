@@ -35,13 +35,13 @@ try:
     )
 
     col2.metric(
-        "Umidade relativa",
-        f"{dados['umidade_relativa']:.0f} %"
+        "Umidade",
+        f"{dados['umidade']:.0f} %"
     )
 
     col3.metric(
         "Sensação térmica",
-        f"{dados['sensacao_termica']:.1f} °C"
+        f"{dados['sensacao']:.1f} °C"
     )
 
     col4, col5 = st.columns(2)
@@ -53,7 +53,7 @@ try:
 
     col5.metric(
         "Velocidade do vento",
-        f"{dados['velocidade_vento']:.1f} km/h"
+        f"{dados['vento']:.1f} km/h"
     )
 
     st.divider()
